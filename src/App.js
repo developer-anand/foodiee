@@ -4,36 +4,36 @@ import { useState } from "react";
 
 const foodDB = {
   Rajasthani: [
-    { name: "Dal baati churma 🍜🍜", rating: "4/5" },
-    { name: "Bajra ki roti with lasun chutney 🧄🧄", rating: "3.5/5" },
-    { name: "Onion kachori 🧅🧅", rating: "3.5/5" }
+    { name: "Dal baati churma <span>🍜🍜</span>", rating: "4/5" },
+    { name: "Bajra ki roti with lasun chutney <span>🧄🧄</span>", rating: "3.5/5" },
+    { name: "Onion kachori <span>🧅🧅</span>", rating: "3.5/5" }
   ],
 
   Delhi: [
     {
-      name: "Paranthas 🍤🍤",
+      name: "Paranthas <span>🍤🍤</span>",
       rating: "5/5"
     },
     {
-      name: "Chaat 🥗🥗",
+      name: "Chaat <span>🥗🥗</span>",
       rating: "4.5/5"
     },
     {
-      name: "Chole Bhature 🥡🥡",
+      name: "Chole Bhature <span>🥡🥡</span>",
       rating: "4.5/5"
     }
   ],
   Punjabi: [
     {
-      name: "Butter Chicken 🐔🐔",
+      name: "Butter Chicken <span>🐔🐔</span>",
       rating: "5/5"
     },
     {
-      name: "Sarson Ka Saag Aur Makki Ki Roti 🥡🥡",
+      name: "Sarson Ka Saag Aur Makki Ki Roti <span>🥡🥡</span>",
       rating: "5/5"
     },
     {
-      name: "Masala Channa 🥗🥗",
+      name: "Masala Channa <span>🥗🥗</span>",
       rating: "4/5"
     }
   ]
@@ -46,10 +46,10 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1> 🍕Foodiee🍜 </h1>
+      <h1> <span>🍕</span> Foodiee <span>🍜</span> </h1>
       <p style={{ fontSize: "smaller" }}>
         {" "}
-        Checkout <strong>India's</strong> Delicious 🍕Foods🍜{" "}
+        Checkout <strong>India's</strong> Delicious <span>🍕</span> Foods <span>🍜</span>{" "}
       </p>
 
       <div>
